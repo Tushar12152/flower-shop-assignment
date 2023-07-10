@@ -30,11 +30,20 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
+    height:850px;
+    position:relative
+}
+
+.banner-img{
+    position:absolute;
+    bottom:0;
+    right:50px;
 }
 .banner-title{
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    
 }
 
 .banner-description{
