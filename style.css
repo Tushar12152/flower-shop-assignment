@@ -125,3 +125,40 @@
     text-decoration-line: underline;
     margin-top:32px;
 }
+.caption>a{
+    color:black;
+}
+
+/* service-section  */
+
+.service-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:128px 240px;
+}
+.service{
+    padding:10px 40px;
+}
+.service-img{
+    width: 88px;
+    height: 88px;
+    margin-left:115px;
+}
+.service-img3{
+    width: 88px;
+    height: 88px;
+    margin-left:70px;
+}
+.service-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right:px;
+    padding:20px 0px;
+    }
