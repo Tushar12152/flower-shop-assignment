@@ -7,12 +7,14 @@
 /* common-style */
 .primary-button{
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     display: inline-flex;
-    padding: 20px 43px;
+    padding: 10px 25px;
     border-radius: 8px;
     background: #E55473;
+    border:2px solid white;
+    
 }
 .primary-button .link{
     text-decoration: none;
@@ -33,7 +35,7 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
-    height:850px;
+    height:500px;
     position:relative
 }
 
@@ -41,20 +43,22 @@
     position:absolute;
     bottom:0;
     right:50px;
+    width: 435px;
+    height: 500px;
 }
 .banner-title{
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     
 }
 
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    padding:30px 0px;
+    padding:20px 0px;
 }
 
 /* featured-section */
@@ -68,7 +72,7 @@
 .featured-title{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     margin-top:178px;
     padding:30px;
@@ -78,20 +82,20 @@
 .featured-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 26px;
 }
 .first-item{
-    width: 464px;
-    height: 538px;
+    width: 300px;
+    height: 350px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     position:relative;
 }
 .second-item{
-    width: 464px;
-    height: 538px;
+    width: 300px;
+    height: 350px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     position:relative;
@@ -99,8 +103,8 @@
 }
 
 .third-item{
-    width: 464px;
-    height: 538px;
+    width: 300px;
+    height: 350px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     position:relative;
@@ -108,8 +112,8 @@
 }
 
 .featured-img{
-    width: 310px;
-    height: 428px;
+    width: 200px;
+    height: 242px;
     position:absolute;
     top:108px;
     left:70px;
@@ -122,7 +126,7 @@
 .caption{
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -135,35 +139,35 @@
 /* service-section  */
 
 .service-container{
-    width: 1440px;
-    height: 320px;
+    width: 970px;
+    height: 220px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display:flex;
     align-items: center;
     justify-content: space-around;
-    margin:128px 240px;
+    margin:128px 158px;
     
 }
 .service{
     padding:10px 40px;
 }
 .service-img{
-    width: 88px;
-    height: 88px;
+    width: 55px;
+    height: 55px;
     margin-left:115px;
 }
 .service-img3{
-    width: 88px;
-    height: 88px;
+    width: 55px;
+    height: 55px;
     margin-left:70px;
 }
 .service-title{
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    margin-right:px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left:20px;
     padding:20px 0px;
     }
 
@@ -175,18 +179,20 @@
     align-items: center;
     justify-content:space-around;
     width:100%;
-    height: 620px;
+    height: 500px;
     background: rgba(229, 84, 115, 0.05);
+    position: relative;
 }
 .sign-up-text{
     padding:30px;
-    margin-left: 300px;
+    margin-left:00px;
 }
 .sign-up-title{
     color: #272727;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 800;
-    padding:20px;
+    padding:15px;
+    text-align: center;
 }
 span{
     color:#E55473;
@@ -194,18 +200,21 @@ span{
 .sign-up-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
-    padding:20px;
+    line-height:26px;
+    padding:15px;
 }
 
 .btn{
     margin:12px 0px 0px 230px;
 }
 .sign-up-image{
-    width: 318px;
-    height: 420px;
+    width: 250px;
+    height: 250px;
+   margin-bottom:200px;
+   margin-right:150px;
+    
 }
 
 /* social-section */
@@ -216,7 +225,7 @@ span{
 .social-title{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 800;
     margin-top: 128px;
     padding:10px;
@@ -225,10 +234,10 @@ span{
 .social-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
-    padding:20px;
+    line-height: 26px;
+    padding:10px;
     margin-bottom: 48px;
 
 }
@@ -237,51 +246,53 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:24px;
+    gap:20px;
 }
 .social-photo{
-    width: 342px;
-    height: 396px;
+    width: 250px;
+    height: 290px;
 }
 
 .deals-container{
     background-image:url('./Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
-    height: 449px;
-    margin:128px 240px;
+    width: 1100px;
+    height: 300px;
+    margin:120px 95px;
     position:relative;
 }
 
 .deals-title{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 800;
     position:absolute;
-    top:122px;
-    left:533px;
+    top:90px;
+    left:390px;
 }
 
 .deals-description{
     position:absolute;
-    top:182px;
-    left:633px;
+    top:137px;
+    left:420px;
+    font-size: 16px;
+    font-weight: 400;
 
 
 }
 
 .mail{
     position:absolute;
-    margin:252px 0px 0px 300px;
-    width:700px;
-    height:64px;
+    margin:180px 0px 0px 240px;
+    width:500px;
+    height:34px;
 }
 .Subscribe{
     position:absolute;
-    margin:252px 0px 0px 1020px;
-    width:160px;
+    margin:177px 0px 0px 760px;
+    width:110px;
 
 }
 
@@ -294,7 +305,7 @@ font-weight: 400;
 /* footer-section */
 .footer-container{
     width:100%;
-    height: 449px;
+    height: 320px;
     background: #111010;
     display: flex;
     align-items: center;
@@ -304,16 +315,16 @@ font-weight: 400;
 
 .footer-title{
     color: #fff;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 800;
     text-align: center;
 }
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height:26px;
     margin-top: 24px;
 }
 
