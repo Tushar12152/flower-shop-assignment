@@ -140,6 +140,7 @@
     align-items: center;
     justify-content: space-around;
     margin:128px 240px;
+    
 }
 .service{
     padding:10px 40px;
@@ -205,3 +206,85 @@ span{
 }
 
 /* social-section */
+.social-container{
+    width:100%;
+    background: #FFF;
+}
+.social-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+    padding:10px;
+
+}
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding:20px;
+    margin-bottom: 48px;
+
+}
+
+.social-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+}
+.social-photo{
+    width: 342px;
+    height: 396px;
+}
+
+.deals-container{
+    background-image:url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 449px;
+    margin:128px 240px;
+    position:relative;
+}
+
+.deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    position:absolute;
+    top:122px;
+    left:533px;
+}
+
+.deals-description{
+    position:absolute;
+    top:182px;
+    left:633px;
+
+
+}
+
+.mail{
+    position:absolute;
+    margin:252px 0px 0px 300px;
+    width:700px;
+    height:64px;
+}
+.Subscribe{
+    position:absolute;
+    margin:252px 0px 0px 1020px;
+    width:160px;
+
+}
+
+.mail-text{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
