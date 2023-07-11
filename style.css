@@ -21,8 +21,11 @@
 .primary-button:hover{
     cursor: pointer;
     background-color: gray;
+    transition: 0.5s;
 
 }
+
+
 
 /* banner-section */
 .banner-container{
